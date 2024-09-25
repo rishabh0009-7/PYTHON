@@ -1,0 +1,1 @@
+# we can write python code in our shell  and can do all functions 
