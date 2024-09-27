@@ -32,3 +32,37 @@ print (b.split(","))
 print(a.find("chai"))
 
 # agar koi cheez exist nhi karti to ye -1 dega output
+
+
+print (a.count("chai"))
+
+#we can add variables inside a variableusing{}  and format method 
+#  ex-
+chai_type = "masala"
+quantity = 2
+order = "i ordered {} cups of {} chai "
+
+print(order.format(quantity,chai_type))
+
+# agar join karna hai  multiple strings ko 
+chai_variety = ["lemon", "masala", "ginger "]
+print(",".join(chai_variety))
+
+
+print(len(a))
+
+# we can also use loops in string 
+for i in a :
+    print(i )
+
+
+#rawstring - jaisa likha hai waisa hi print ho jayaa 
+
+chai= r"masala\nchai"
+print(chai)  #masala\nchai
+
+
+#we can ask something from python also 
+
+b= "masala chai "
+print("masala" in chai ) # true 
